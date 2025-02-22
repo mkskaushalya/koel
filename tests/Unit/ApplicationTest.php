@@ -12,8 +12,8 @@ class ApplicationTest extends TestCase
     {
         config(['koel.cdn.url' => '']);
 
-        self::assertSame('http://localhost/', static_url());
-        self::assertSame('http://localhost/foo.css', static_url('/foo.css '));
+        self::assertSame('http://koel.test/', static_url());
+        self::assertSame('http://koel.test/foo.css', static_url('/foo.css '));
     }
 
     #[Test]

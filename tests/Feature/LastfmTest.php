@@ -46,7 +46,7 @@ class LastfmTest extends TestCase
 
         $this->get('lastfm/connect?api_token=' . $token)
             ->assertRedirect(
-                'https://www.last.fm/api/auth/?api_key=foo&cb=http%3A%2F%2Flocalhost%2Flastfm%2Fcallback%3Fapi_token%3Dtmp-token' // @phpcs-ignore-line
+                'https://www.last.fm/api/auth/?api_key=foo&cb=http%3A%2F%2Fkoel.test%2Flastfm%2Fcallback%3Fapi_token%3Dtmp-token' // @phpcs-ignore-line
             );
     }
 
