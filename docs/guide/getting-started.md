@@ -49,10 +49,10 @@ php artisan koel:init
 php artisan serve
 ```
 
-In both cases, you should now be able to visit http://localhost:8000 in your browser and start using Koel.
+In both cases, you should now be able to visit http://koel.test/ in your browser and start using Koel.
 
 ::: warning Use a proper webserver
-http://localhost:8000 is only the _development_ server for Koel (or rather, Laravel).
+http://koel.test/ is only the _development_ server for Koel (or rather, Laravel).
 For optimal performance, you'll want to set up a production server (Apache, nginx, Caddy etc.) and point it to the `public` directory of Koel.
 Koel provides a sample configuration for nginx in `nginx.conf.example`,
 but the process shouldn't be any different from that of a standard PHP application.

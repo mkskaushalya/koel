@@ -13,7 +13,7 @@
   </testsuites>
   <php>
     <env name="APP_ENV" value="testing"/>
-    <env name="APP_URL" value="http://localhost/"/>
+    <env name="APP_URL" value="http://koel.test/"/>
     <env name="APP_KEY" value="16efa6c23c2e8c705826b0e66778fbe7"/>
     <env name="STORAGE_DRIVER" value="local"/>
     <env name="CACHE_DRIVER" value="array"/>
@@ -21,7 +21,7 @@
     <env name="SCOUT_DRIVER" value="tntsearch"/>
     <env name="SESSION_DRIVER" value="array"/>
     <env name="QUEUE_DRIVER" value="sync"/>
-    <env name="DB_CONNECTION" value="sqlite"/>
+    <env name="DB_CONNECTION" value="mysql"/>
     <env name="LASTFM_API_KEY" value="foo"/>
     <env name="LASTFM_API_SECRET" value="bar"/>
       <!-- Spotify integration during tests must be opt-in -->

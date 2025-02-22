@@ -37,14 +37,14 @@ $ composer dev
 [vite]
 [vite]   LARAVEL v10.48.8  plugin v1.0.2
 [vite]
-[vite]   ➜  APP_URL: http://localhost:8000
+[vite]   ➜  APP_URL: http://koel.test/
 [server]
-[server]    INFO  Server running on [http://127.0.0.1:8000].
+[server]    INFO  Server running on [http://koel.test].
 [server]
 [server]   Press Ctrl+C to stop the server
 ```
 
-A development version of Koel should now be available at `http://localhost:8000` with full HMR support.
+A development version of Koel should now be available at `http://koel.test/` with full HMR support.
 Every change you make to the client application will be reflected in the browser immediately.
 
 ### Testing, Linting, Static Analysis, etc.
